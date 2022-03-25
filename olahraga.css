@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #FDD9B5;
+}
+
+.header {
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #D77200;
+    color: #fff;
+    border-bottom: 1px solid black;
+    opacity: 100%;
+    z-index: +1;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.judul{
+    margin: 0;
+    padding: 10px;
+}
+  
+.main {
+    overflow: hidden;
+    position: absolute;
+    border: 1px solid black;
+    width: 100%;
+    height: 87.5%;
+    top: 8.5%;
+    left: 0;
+    background-color: #FABE86;
+    font-family: 'Times New Roman', Times, serif;
+}
+  
+.footer{
+    overflow: hidden;
+    position: fixed;
+    border: 1px solid black;
+    width: 100%;
+    height: 3%;
+    bottom: 0;
+    left: 0;
+    border-left: none;
+    border-right: none;
+    background-color: #D77200;
+    opacity: calc(0.5);
+    color: #fff;
+}
+
+.textFooter {
+    margin: 0;
+    padding: 0;
+    float: right;
+    padding: 0px 15px 0px 0px;
+}
+
+.berita {
+    text-align: center;
+}
+
+.gambar{
+    padding: 15px 25px 15px 25px;
+}
+
+.link{
+    padding-left: 5px;
+    transform: translateY(-60%);
+    font-style: italic;
+}
+
+.beritaPenuh{
+    width: 53%;
+    float: right;
+    transform: translateY(-270%);
+    text-align: justify;
+    padding-right: 2%;
+    padding-left: 0;
+}
+
+.ferran{
+    overflow: hidden;
+    position: absolute;
+    bottom: 3%;
+    right: 2%;
+    font-weight: bold;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.ferran:hover{
+    background-color: #D77200;
+    color: #FABE86;
+}
+
+.sumber {
+    font-size: 9pt;
+}
+
+.ferran a{
+    text-decoration: none;
+    color: black;
+}
